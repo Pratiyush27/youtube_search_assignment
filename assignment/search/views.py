@@ -5,7 +5,7 @@ import json
 
 def populate_db():
 
-    # Search.objects.all().delete()
+    Search.objects.all().delete()
     api_key = 'AIzaSyDrdOoGUmwWKKtKJDjKBspekUjnzSBUCZI'
     link = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=100&order=date&q=football&key='+ api_key
 

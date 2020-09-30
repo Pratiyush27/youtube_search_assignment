@@ -8,7 +8,7 @@ import pprint
 def populate_db():
     print("scheduled !!!!")
     
-    keys = 'AIzaSyDrdOoGUmwWKKtKJDjKBspekUjnzSBUCZI'
+    keys = get_key()
     link = 'https://www.googleapis.com/youtube/v3/search/'
 
     # Automatic key selection
